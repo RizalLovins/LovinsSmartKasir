@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView
+        android:id="@+id/scannershop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="10dp"
+        android:background="#525150"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/scanNamaProduk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shop_scan_mastin"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/accent"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/scanHargaProduk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="@string/shop_scan_rp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#52B409"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <CheckBox
+        android:id="@+id/autoaddcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shop_scan_tambah_otomatis" />
+
+    <TextView
+        android:id="@+id/scanSN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shop_scan_text"
+        android:visibility="gone" />
+
+</LinearLayout>
+

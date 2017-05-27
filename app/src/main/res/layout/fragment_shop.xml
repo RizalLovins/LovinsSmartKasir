@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayoutBelanja"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <include
+        android:id="@+id/bottomSheet"
+        layout="@layout/total_sheets" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_shopping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/ic_basket"
+        app:layout_anchor="@id/bottomSheet"
+        app:layout_anchorGravity="end|bottom" />
+
+    <com.rizal.lovins.smartkasir.table.TableGroceries
+        android:id="@+id/groceries"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:tableView_headerColor="@color/primary" />
+
+</android.support.design.widget.CoordinatorLayout>
+

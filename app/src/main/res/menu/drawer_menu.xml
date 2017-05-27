@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/frag1"
+            android:icon="@drawable/ic_home"
+            android:title="@string/drawer_menu_smart_kasir" />
+        <item
+            android:id="@+id/frag2"
+            android:icon="@drawable/ic_basket_fill"
+            android:title="@string/drawer_menu_belanja" />
+        <item
+            android:id="@+id/frag3"
+            android:icon="@drawable/ic_package_variant"
+            android:title="@string/drawer_menu_produk" />
+        <item
+            android:id="@+id/frag4"
+            android:icon="@drawable/ic_maps"
+            android:title="@string/drawer_menu_google_maps" />
+    </group>
+</menu>
