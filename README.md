@@ -1,6 +1,16 @@
 # Smart Kasir
 ### UNDER CONSTRUCTION ⚠
 
+### Library
+
+- https://github.com/ISchwarz23/SortableTableView
+
+- https://github.com/Kennyc1012/BottomSheet
+
+- https://github.com/journeyapps/zxing-android-embedded
+
+- https://github.com/lovedise/PermissionGen
+
 ### License
 
     Copyright 2017, Rizal Lovins
@@ -17,15 +27,4 @@
     distributed under the License is distributed on an "AS IS" BASIS,
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
-    limitations under the License.
-                      
-### Library
-
-- https://github.com/ISchwarz23/SortableTableView
-
-- https://github.com/Kennyc1012/BottomSheet
-
-- https://github.com/journeyapps/zxing-android-embedded
-
-- https://github.com/lovedise/PermissionGen
-
+    limitations under the License.                 
