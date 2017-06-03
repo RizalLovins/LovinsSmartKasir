@@ -1,7 +1,8 @@
 # Smart Kasir
+# Author
+Rizal Lovins, Lovins Ich
 
 ### Library
-
 - https://github.com/ISchwarz23/SortableTableView
 
 - https://github.com/Kennyc1012/BottomSheet
@@ -9,6 +10,9 @@
 - https://github.com/journeyapps/zxing-android-embedded
 
 - https://github.com/lovedise/PermissionGen
+
+- https://github.com/agusibrahim/AppKasir/tree/master/AppKasir
+
 
 ## License
 Licensed under the [Apache License 2.0][1]
