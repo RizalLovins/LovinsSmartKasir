@@ -18,7 +18,7 @@ public class GroceriesDataAdapter extends TableDataAdapter {
     public static final NumberFormat PRICE_FORMATTER = NumberFormat.getNumberInstance();
     public static long totalBelanja = 0;
     public static int sisaStok = 0;
-    private ArrayList<Product> product = (ArrayList<Product>) getData();
+//     private ArrayList<Product> product = (ArrayList<Product>) getData();
     private ArrayList<Groceries> groceries = (ArrayList<Groceries>) getData();
 
     public GroceriesDataAdapter(Context context) {
@@ -48,9 +48,9 @@ public class GroceriesDataAdapter extends TableDataAdapter {
         return groceries;
     }
 
-    private ArrayList<Product> getBarang() {
-        return product;
-    }
+//     private ArrayList<Product> getBarang() {
+//         return product;
+//     }
 
     // Fungsi get Groceries melalui SN
     private Groceries getBelanjaBySN(String sn) {
@@ -102,13 +102,13 @@ public class GroceriesDataAdapter extends TableDataAdapter {
         notifyDataSetChanged();
     }
 
-    public void hapus(Product product) {
-        // update totalBelanja belanjaan
-        getBarang().remove(product);
-        updateTotalBelanja();
-        updateStok();
-        notifyDataSetChanged();
-    }
+//     public void hapus(Product product) {
+//         // update totalBelanja belanjaan
+//         getBarang().remove(product);
+//         updateTotalBelanja();
+//         updateStok();
+//         notifyDataSetChanged();
+//     }
 
     private View renderString(final String value) {
         final TextView textView = new TextView(getContext());
